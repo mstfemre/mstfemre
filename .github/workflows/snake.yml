@@ -1,0 +1,60 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution animations
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: mstfemre
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#f43f5e&color_dots=#161b22,#4c1628,#881337,#be123c,#fb7185
+            dist/snake-light.svg?color_snake=#e11d48&color_dots=#ebedf0,#fecdd3,#fda4af,#fb7185,#e11d48
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Store generated SVGs
+        uses: actions/upload-artifact@v4
+        with:
+          name: contribution-snake
+          path: dist/*.svg
+          retention-days: 1
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: contribution-snake
+          path: assets/contributions
+      - name: Publish updated contribution animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh contribution animation [skip ci]"
+            git push
+          fi
