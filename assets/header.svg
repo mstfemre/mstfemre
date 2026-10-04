@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-label="Mustafa Emre Çelebi — Software development, Linux and cybersecurity">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#190d15"/></linearGradient><radialGradient id="glow"><stop stop-color="#f43f5e" stop-opacity=".16"/><stop offset="1" stop-color="#f43f5e" stop-opacity="0"/></radialGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+<rect width="1000" height="280" rx="18" fill="url(#bg)"/><rect width="1000" height="280" rx="18" fill="url(#grid)"/><ellipse cx="825" cy="140" rx="260" ry="220" fill="url(#glow)"/>
+<rect x="32" y="35" width="5" height="210" rx="2.5" fill="#f43f5e"/>
+<text x="64" y="65" fill="#f43f5e" font-family="monospace" font-size="14" letter-spacing="3">MSTFEMRE / DEVELOPER PROFILE</text>
+<text x="62" y="122" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="43" font-weight="700">Mustafa Emre Çelebi</text>
+<text x="64" y="159" fill="#a7b0bd" font-family="Arial, sans-serif" font-size="18">Software Development · Linux · Cybersecurity</text>
+<text x="64" y="209" fill="#f43f5e" font-family="monospace" font-size="17">&gt;</text><text x="87" y="209" fill="#d5dce5" font-family="monospace" font-size="16">building tools. exploring systems.</text>
+<rect x="438" y="193" width="9" height="19" fill="#f43f5e"><animate attributeName="opacity" values="1;1;0;0" dur="1.6s" repeatCount="indefinite"/></rect>
+<g fill="none" stroke="#f43f5e" stroke-opacity=".3" stroke-width="1.5"><path d="M730 70h60l35 35h90M690 140h80l35-35M765 140l40 40h105M735 212h60l30-32"/><circle cx="730" cy="70" r="5"/><circle cx="690" cy="140" r="5"/><circle cx="735" cy="212" r="5"/><circle cx="920" cy="105" r="6"/><circle cx="915" cy="180" r="6"/></g>
+<rect x="797" y="121" width="74" height="38" rx="8" fill="#15151e" stroke="#f43f5e" stroke-opacity=".65"/><text x="815" y="147" fill="#f43f5e" font-family="monospace" font-size="21">&lt;/&gt;</text>
+</svg>
