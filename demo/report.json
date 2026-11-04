@@ -1,0 +1,121 @@
+{
+  "scanner": "CrimsonWeb",
+  "version": "2.1.0",
+  "target": {
+    "original": "127.0.0.1",
+    "address": "127.0.0.1",
+    "family": 2
+  },
+  "timestamp_utc": "20261104_215229Z",
+  "scan_mode": "connect",
+  "engagement_id": null,
+  "web_policy": {
+    "egress": {
+      "mode": "direct",
+      "nodes": [
+        {
+          "id": "direct",
+          "kind": "direct",
+          "role": "general",
+          "total_requests": 48,
+          "total_failures": 0,
+          "in_cooldown": false
+        }
+      ]
+    },
+    "blocked_targets": [],
+    "fingerprint_profile": null,
+    "decoy_rate": 0.0
+  },
+  "ports": [
+    {
+      "port": 49899,
+      "state": "open",
+      "service": "http",
+      "version": "CrimsonDemo/1.0",
+      "transport": "tcp",
+      "tls": false,
+      "http_status": 200,
+      "title": "CrimsonWeb local lab",
+      "headers": {
+        "server": "CrimsonDemo/1.0",
+        "date": "Wed, 04 Nov 2026 21:52:24 GMT",
+        "content-type": "text/html",
+        "content-length": "75",
+        "x-content-type-options": "nosniff"
+      },
+      "waf": null,
+      "sensitive_paths": [
+        {
+          "path": "/robots.txt",
+          "status": 200,
+          "size": 31,
+          "content_type": "text/html"
+        }
+      ],
+      "api_paths": [
+        {
+          "path": "/api",
+          "status": 200,
+          "size": 38,
+          "content_type": "application/json"
+        },
+        {
+          "path": "/health",
+          "status": 200,
+          "size": 15,
+          "content_type": "application/json"
+        }
+      ],
+      "security_headers": [
+        {
+          "name": "content-security-policy",
+          "severity": "LOW",
+          "issue": "missing",
+          "detail": "content-security-policy header not present"
+        },
+        {
+          "name": "x-frame-options",
+          "severity": "LOW",
+          "issue": "missing",
+          "detail": "x-frame-options header not present"
+        },
+        {
+          "name": "referrer-policy",
+          "severity": "LOW",
+          "issue": "missing",
+          "detail": "referrer-policy header not present"
+        },
+        {
+          "name": "permissions-policy",
+          "severity": "LOW",
+          "issue": "missing",
+          "detail": "permissions-policy header not present"
+        }
+      ],
+      "cookie_findings": [],
+      "cors_findings": [],
+      "tls_certificate": {},
+      "mitre_attack": [
+        {
+          "id": "T1046",
+          "technique": "Network Service Discovery",
+          "reason": "Open service exposed during authorized discovery"
+        },
+        {
+          "id": "T1190",
+          "technique": "Exploit Public-Facing Application",
+          "reason": "Public-facing web weakness or vulnerable component indicator"
+        },
+        {
+          "id": "T1595.002",
+          "technique": "Vulnerability Scanning",
+          "reason": "API documentation or endpoint indicator useful for external reconnaissance"
+        }
+      ],
+      "cves": [],
+      "notes": [],
+      "os_hint": null
+    }
+  ]
+}
