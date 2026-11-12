@@ -14,10 +14,11 @@ I develop Python tools for authorized network and web security assessments, with
 - **Web & API security** — HTTP security checks, exposure analysis and finding validation.
 - **Security tooling** — native Python probes, controlled scanning and reproducible reporting.
 
-## CrimsonWeb
+## CrimsonWeb — Network & Web Security Scanner
 
-**An independent Python tool for authorized network and web security assessments.**
-I build its native discovery engine, web checks and reporting without relying on Nmap or masscan.
+**CrimsonWeb is a Python scanner I built to find open ports, identify running services and check websites for security issues.** It brings network discovery and web security checks into one tool, then saves the findings in JSON and readable Markdown reports.
+
+Built for testing systems you own or have permission to assess. Its scanning engine runs independently of Nmap and masscan.
 
 <a href="https://github.com/mstfemre/CrimsonWeb"><img src="assets/crimsonweb-demo.gif" width="100%" alt="CrimsonWeb local demo: TCP discovery, HTTP fingerprinting, web header checks and JSON/Markdown reporting" /></a>
 
