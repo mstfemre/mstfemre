@@ -1,16 +1,16 @@
-<img src="assets/header-v2.svg?palette=red" width="100%" alt="Mustafa Emre Çelebi — Offensive security & web technologies" />
+<img src="assets/header-v2-red.svg" width="100%" alt="Mustafa Emre Çelebi — Offensive security & web technologies" />
 
 <p>
-  <a href="https://www.linkedin.com/in/mustafa-emre-%C3%A7elebi/"><img src="assets/link-linkedin.svg?palette=red" height="32" alt="LinkedIn" /></a>
-  <a href="mailto:mstfclb23@gmail.com"><img src="assets/link-email.svg?palette=red" height="32" alt="Email" /></a>
-  <img src="assets/link-internships.svg?palette=red" height="32" alt="Open to internships" />
+  <a href="https://www.linkedin.com/in/mustafa-emre-%C3%A7elebi/"><img src="assets/link-linkedin-red.svg" height="32" alt="LinkedIn" /></a>
+  <a href="mailto:mstfclb23@gmail.com"><img src="assets/link-email-red.svg" height="32" alt="Email" /></a>
+  <img src="assets/link-internships-red.svg" height="32" alt="Open to internships" />
 </p>
 
 I'm a **Software Engineering student at Erciyes University** and **Head of Projects at EruSiber**. I build security tools in Python and websites with Next.js, with a growing focus on offensive security and web application security.
 
 ### My main project
 
-<a href="https://github.com/mstfemre/CrimsonWeb"><img src="assets/crimsonweb-overview.svg?palette=red" width="100%" alt="CrimsonWeb: a Python network and web security scanner. Discover open ports and services, inspect web and TLS security, and export JSON and Markdown reports." /></a>
+<a href="https://github.com/mstfemre/CrimsonWeb"><img src="assets/crimsonweb-overview-red.svg" width="100%" alt="CrimsonWeb: a Python network and web security scanner. Discover open ports and services, inspect web and TLS security, and export JSON and Markdown reports." /></a>
 
 **CrimsonWeb finds open ports, identifies running services and checks websites for security issues.** I built its scanning engine in Python, independently of Nmap and masscan, to bring discovery, security checks and reporting into one tool.
 
@@ -25,11 +25,11 @@ I'm a **Software Engineering student at Erciyes University** and **Head of Proje
 ### Toolkit
 
 <p>
-  <img src="assets/tech-python.svg?palette=red" height="36" alt="Python" />
-  <img src="assets/tech-linux.svg?palette=red" height="36" alt="Linux" />
-  <img src="assets/tech-kali.svg?palette=red" height="36" alt="Kali Linux" />
-  <img src="assets/tech-nextjs.svg?palette=red" height="36" alt="Next.js" />
-  <img src="assets/tech-java.svg?palette=red" height="36" alt="Java" />
+  <img src="assets/tech-python-red.svg" height="36" alt="Python" />
+  <img src="assets/tech-linux-red.svg" height="36" alt="Linux" />
+  <img src="assets/tech-kali-red.svg" height="36" alt="Kali Linux" />
+  <img src="assets/tech-nextjs-red.svg" height="36" alt="Next.js" />
+  <img src="assets/tech-java-red.svg" height="36" alt="Java" />
 </p>
 
 ### Also building for the web
