@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="184" viewBox="0 0 1000 184">
-<title>Mustafa Emre Çelebi — Cybersecurity and Web Development</title>
+<title>Mustafa Emre Çelebi — Offensive Security and Security Tooling</title>
 <rect width="1000" height="184" rx="12" fill="#0d1117"/>
 <path d="M24 24V160" stroke="#be3455" stroke-width="3"/>
 <g font-family="Segoe UI,Arial,sans-serif">
 <text x="48" y="42" fill="#be3455" font-size="12" letter-spacing="3">MSTFEMRE / BUILD · TEST · LEARN</text>
 <text x="46" y="92" fill="#f0f3f6" font-size="38" font-weight="650">Mustafa Emre Çelebi</text>
-<text x="48" y="128" fill="#a5afbd" font-size="20">Cybersecurity &amp; Web Development</text>
+<text x="48" y="128" fill="#a5afbd" font-size="20">Offensive Security &amp; Security Tooling</text>
 </g>
 <path d="M630 36V148" stroke="#29313c"/>
 <g font-family="Consolas,monospace" font-size="15">
 <text x="665" y="63" fill="#a5afbd">~/mstfemre</text>
 <text x="665" y="95" fill="#f0f3f6"><tspan fill="#be3455">❯ </tspan>building CrimsonWeb</text>
-<text x="665" y="126" fill="#a5afbd">python · linux · next.js</text>
+<text x="665" y="126" fill="#a5afbd">python · linux · web security</text>
 </g>
 <rect x="929" y="81" width="7" height="17" fill="#be3455"><animate attributeName="opacity" values="1;1;0;0" dur="2.8s" repeatCount="indefinite"/></rect>
 </svg>

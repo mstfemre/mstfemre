@@ -1,10 +1,18 @@
-<img src="assets/header-v2.svg" width="100%" alt="Mustafa Emre Çelebi — Cybersecurity & Web Development" />
+<img src="assets/header-v2.svg" width="100%" alt="Mustafa Emre Çelebi — Offensive Security & Security Tooling" />
 
 <p>
   <a href="https://www.linkedin.com/in/mustafa-emre-%C3%A7elebi/"><img src="assets/link-linkedin.svg" height="32" alt="LinkedIn" /></a>
   <a href="mailto:mstfclb23@gmail.com"><img src="assets/link-email.svg" height="32" alt="Email" /></a>
   <img src="assets/link-internships.svg" height="32" alt="Open to internships" />
 </p>
+
+I develop Python tools for authorized network and web security assessments, with a focus on understanding how services behave and turning findings into useful reports.
+
+## Security focus
+
+- **Network reconnaissance** — TCP/UDP discovery, service fingerprinting and TLS analysis.
+- **Web & API security** — HTTP security checks, exposure analysis and finding validation.
+- **Security tooling** — native Python probes, controlled scanning and reproducible reporting.
 
 ## CrimsonWeb
 
@@ -19,25 +27,6 @@ I build its native discovery engine, web checks and reporting without relying on
 
 [Explore the source →](https://github.com/mstfemre/CrimsonWeb) · [Read the guide →](https://github.com/mstfemre/CrimsonWeb/blob/main/docs/USER_GUIDE.md)
 
-## Building for the web
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://askmecreative.com"><img src="assets/askme-live.png" width="100%" alt="AskMe Creative — live creative studio website" /></a>
-      <h3>AskMe Creative</h3>
-      <p>Creative studio website.<br />Web development · Next.js</p>
-      <a href="https://askmecreative.com"><b>Live Demo ↗</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://crktourism.com"><img src="assets/crk-live.png" width="100%" alt="CRK Tourism — live tourism and transfer website" /></a>
-      <h3>CRK Tourism</h3>
-      <p>Tourism and transfer website.<br />Web development · Next.js</p>
-      <a href="https://crktourism.com"><b>Live Demo ↗</b></a>
-    </td>
-  </tr>
-</table>
-
 ## Tools I work with
 
 <p>
@@ -50,7 +39,11 @@ I build its native discovery engine, web checks and reporting without relying on
 
 Third-year **Software Engineering student at Erciyes University**, studying in English.
 **Head of Projects** at the university’s Cybersecurity Student Club.
-Interested in internships in **cybersecurity and web development**.
+Interested in internships in **offensive security, application security and security tooling**.
+
+## Web projects
+
+I also build websites with Next.js: [AskMe Creative ↗](https://askmecreative.com) · [CRK Tourism ↗](https://crktourism.com)
 
 ## Contributions in motion
 
