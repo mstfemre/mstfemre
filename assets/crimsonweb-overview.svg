@@ -2,22 +2,22 @@
 <title id="title">CrimsonWeb — A Python scanner for networks and websites</title>
 <desc id="desc">Discover open ports and services, inspect web and TLS security, and export findings as JSON and Markdown. Conceptual workflow, not scan results.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2=".6"><stop stop-color="#21131d"/><stop offset="1" stop-color="#0e131b"/></linearGradient>
- <linearGradient id="edge"><stop stop-color="#94405b"/><stop offset="1" stop-color="#29313c"/></linearGradient>
+ <linearGradient id="bg" x2="1" y2=".6"><stop stop-color="#240e14"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <linearGradient id="edge"><stop stop-color="#9e2337"/><stop offset="1" stop-color="#29313c"/></linearGradient>
 </defs>
 <rect x="1" y="1" width="998" height="356" rx="16" fill="url(#bg)" stroke="url(#edge)"/>
 <g font-family="Segoe UI,Arial,sans-serif">
  <text x="34" y="62" fill="#f2f0f3" font-size="35" font-weight="700" letter-spacing="-.8">CrimsonWeb</text>
  <text x="35" y="96" fill="#b7bdc8" font-size="20">A Python scanner for networks and websites.</text>
- <rect x="804" y="33" width="160" height="35" rx="17.5" fill="#37202c" stroke="#633047"/>
- <text x="884" y="56" text-anchor="middle" fill="#e9b2c2" font-size="15">Independent engine</text>
- <path d="M35 123H965" stroke="#3a2835"/>
- <path d="M90 182H909" stroke="#573044" stroke-width="2"/>
- <path d="m334 177 6 5-6 5m321-10 6 5-6 5" stroke="#bd5d79" stroke-width="2" fill="none"/>
- <g fill="#231822" stroke="#a84b68" stroke-width="1.5">
+ <rect x="804" y="33" width="160" height="35" rx="17.5" fill="#37131c" stroke="#751b2b"/>
+ <text x="884" y="56" text-anchor="middle" fill="#f5b0ba" font-size="15">Independent engine</text>
+ <path d="M35 123H965" stroke="#41212a"/>
+ <path d="M90 182H909" stroke="#681c2c" stroke-width="2"/>
+ <path d="m334 177 6 5-6 5m321-10 6 5-6 5" stroke="#ef4058" stroke-width="2" fill="none"/>
+ <g fill="#281018" stroke="#d52b44" stroke-width="1.5">
   <circle cx="67" cy="182" r="24"/><circle cx="389" cy="182" r="24"/><circle cx="711" cy="182" r="24"/>
  </g>
- <g fill="none" stroke="#e9adbf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+ <g fill="none" stroke="#ff9eae" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
   <circle cx="67" cy="177" r="3"/><circle cx="58" cy="190" r="3"/><circle cx="76" cy="190" r="3"/><path d="m65 180-5 7m9-7 5 7M61 190H73"/>
   <path d="M389 169 400 173V183Q398 191 389 196Q380 191 378 183V173Z"/><path d="m384 182 4 4 7-8"/>
   <path d="M703 170H714L720 176V195H703ZM714 170V177H720M708 182H715M708 187H715"/>
@@ -30,7 +30,7 @@
   <text x="357" y="278">Web checks &amp; TLS analysis</text>
   <text x="679" y="278">JSON &amp; Markdown findings</text>
  </g>
- <text x="35" y="329" fill="#b48c9d" font-size="15">For authorized security assessments</text>
- <text x="965" y="329" text-anchor="end" fill="#b48c9d" font-size="15">Python · No Nmap or masscan dependency</text>
+ <text x="35" y="329" fill="#ca919b" font-size="15">For authorized security assessments</text>
+ <text x="965" y="329" text-anchor="end" fill="#ca919b" font-size="15">Python · No Nmap or masscan dependency</text>
 </g>
 </svg>

@@ -25,8 +25,8 @@ jobs:
         with:
           github_user_name: mstfemre
           outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=#f43f5e&color_dots=#161b22,#4c1628,#881337,#be123c,#fb7185
-            dist/snake-light.svg?color_snake=#e11d48&color_dots=#ebedf0,#fecdd3,#fda4af,#fb7185,#e11d48
+            dist/snake-dark.svg?palette=github-dark&color_snake=#ff304c&color_dots=#161b22,#4e101c,#8e1428,#cf1832,#ff536b
+            dist/snake-light.svg?color_snake=#e51d38&color_dots=#ebedf0,#ffd0d7,#ff99aa,#ff536b,#e51d38
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Store generated SVGs
