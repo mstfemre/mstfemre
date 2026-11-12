@@ -1,17 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="184" viewBox="0 0 1000 184">
-<title>Mustafa Emre Çelebi — Offensive Security and Security Tooling</title>
-<rect width="1000" height="184" rx="12" fill="#0d1117"/>
-<path d="M24 24V160" stroke="#be3455" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="248" viewBox="0 0 1000 248" role="img" aria-labelledby="title desc">
+<title id="title">Mustafa Emre Çelebi — Offensive security and web technologies</title>
+<desc id="desc">A dark burgundy network illustration beside Mustafa's name.</desc>
+<defs>
+ <radialGradient id="glow"><stop stop-color="#662137" stop-opacity=".55"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+ <linearGradient id="line"><stop stop-color="#c64d70"/><stop offset="1" stop-color="#542235"/></linearGradient>
+</defs>
+<rect width="1000" height="248" rx="16" fill="#0d1117"/>
+<ellipse cx="825" cy="121" rx="220" ry="180" fill="url(#glow)"/>
+<g fill="none" stroke="#582738">
+ <path d="M837 23 929 76 929 182 837 235 745 182 745 76Z"/>
+ <path d="M837 55 901 92 901 166 837 203 773 166 773 92Z" stroke="#7f3049"/>
+ <path d="M837 23V93M929 76 868 111M929 182 868 147M837 235V165M745 182 806 147M745 76 806 111"/>
+ <path d="M655 61H704L745 85M661 204H708L745 173M929 129H980" stroke="#34303a"/>
+ <path d="M837 93 868 111V147L837 165 806 147V111Z" stroke="url(#line)" stroke-width="2" fill="#23131e"/>
+</g>
+<g fill="#ce5475"><circle cx="837" cy="23" r="4"/><circle cx="929" cy="182" r="4"/><circle cx="745" cy="76" r="4"/><circle cx="837" cy="129" r="6"/></g>
+<g fill="#8e4058"><circle cx="929" cy="76" r="3"/><circle cx="837" cy="235" r="3"/><circle cx="745" cy="182" r="3"/></g>
 <g font-family="Segoe UI,Arial,sans-serif">
-<text x="48" y="42" fill="#be3455" font-size="12" letter-spacing="3">MSTFEMRE / BUILD · TEST · LEARN</text>
-<text x="46" y="92" fill="#f0f3f6" font-size="38" font-weight="650">Mustafa Emre Çelebi</text>
-<text x="48" y="128" fill="#a5afbd" font-size="20">Offensive Security &amp; Security Tooling</text>
+ <text x="24" y="72" font-size="20" fill="#d47992">Security through building.</text>
+ <text x="21" y="132" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#f2f0f3">Mustafa Emre Çelebi</text>
+ <text x="24" y="176" font-size="23" fill="#aeb6c2">Offensive security &amp; web technologies</text>
 </g>
-<path d="M630 36V148" stroke="#29313c"/>
-<g font-family="Consolas,monospace" font-size="15">
-<text x="665" y="63" fill="#a5afbd">~/mstfemre</text>
-<text x="665" y="95" fill="#f0f3f6"><tspan fill="#be3455">❯ </tspan>building CrimsonWeb</text>
-<text x="665" y="126" fill="#a5afbd">python · linux · web security</text>
-</g>
-<rect x="929" y="81" width="7" height="17" fill="#be3455"><animate attributeName="opacity" values="1;1;0;0" dur="2.8s" repeatCount="indefinite"/></rect>
+<path d="M24 215H95" stroke="#bc3e62" stroke-width="3"/>
+<path d="M95 215H574" stroke="#272b35"/>
 </svg>

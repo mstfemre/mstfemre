@@ -1,4 +1,4 @@
-<img src="assets/header-v2.svg" width="100%" alt="Mustafa Emre Çelebi — Offensive Security & Security Tooling" />
+<img src="assets/header-v2.svg" width="100%" alt="Mustafa Emre Çelebi — Offensive security & web technologies" />
 
 <p>
   <a href="https://www.linkedin.com/in/mustafa-emre-%C3%A7elebi/"><img src="assets/link-linkedin.svg" height="32" alt="LinkedIn" /></a>
@@ -6,29 +6,23 @@
   <img src="assets/link-internships.svg" height="32" alt="Open to internships" />
 </p>
 
-I develop Python tools for authorized network and web security assessments, with a focus on understanding how services behave and turning findings into useful reports.
+I'm a **Software Engineering student at Erciyes University** and **Head of Projects at EruSiber**. I build security tools in Python and websites with Next.js, with a growing focus on offensive security and web application security.
 
-## Security focus
+### My main project
 
-- **Network reconnaissance** — TCP/UDP discovery, service fingerprinting and TLS analysis.
-- **Web & API security** — HTTP security checks, exposure analysis and finding validation.
-- **Security tooling** — native Python probes, controlled scanning and reproducible reporting.
+<a href="https://github.com/mstfemre/CrimsonWeb"><img src="assets/crimsonweb-overview.svg" width="100%" alt="CrimsonWeb: a Python network and web security scanner. Discover open ports and services, inspect web and TLS security, and export JSON and Markdown reports." /></a>
 
-## CrimsonWeb — Network & Web Security Scanner
+**CrimsonWeb finds open ports, identifies running services and checks websites for security issues.** I built its scanning engine in Python, independently of Nmap and masscan, to bring discovery, security checks and reporting into one tool.
 
-**CrimsonWeb is a Python scanner I built to find open ports, identify running services and check websites for security issues.** It brings network discovery and web security checks into one tool, then saves the findings in JSON and readable Markdown reports.
+[Source code](https://github.com/mstfemre/CrimsonWeb) &nbsp; / &nbsp; [User guide](https://github.com/mstfemre/CrimsonWeb/blob/main/docs/USER_GUIDE.md) &nbsp; / &nbsp; [Local lab demo](demo/README.md)
 
-Built for testing systems you own or have permission to assess. Its scanning engine runs independently of Nmap and masscan.
+### What I work on
 
-<a href="https://github.com/mstfemre/CrimsonWeb"><img src="assets/crimsonweb-demo.gif" width="100%" alt="CrimsonWeb local demo: TCP discovery, HTTP fingerprinting, web header checks and JSON/Markdown reporting" /></a>
+- **Network reconnaissance** — port discovery, service fingerprinting and TLS analysis.
+- **Web security** — HTTP security checks, exposure analysis and finding validation.
+- **Python tooling** — native probes, controlled scanning and readable reports.
 
-<sub>Real loopback lab run, edited for readability. <a href="demo/README.md">Demo details &amp; actual output</a> · <a href="assets/crimsonweb-demo-still.png">Static version</a></sub>
-
-**TCP/UDP discovery** · **Service & TLS analysis** · **Web security checks** · **Structured reports**
-
-[Explore the source →](https://github.com/mstfemre/CrimsonWeb) · [Read the guide →](https://github.com/mstfemre/CrimsonWeb/blob/main/docs/USER_GUIDE.md)
-
-## Tools I work with
+### Toolkit
 
 <p>
   <img src="assets/tech-python.svg" height="36" alt="Python" />
@@ -38,15 +32,11 @@ Built for testing systems you own or have permission to assess. Its scanning eng
   <img src="assets/tech-java.svg" height="36" alt="Java" />
 </p>
 
-Third-year **Software Engineering student at Erciyes University**, studying in English.
-**Head of Projects** at the university’s Cybersecurity Student Club.
-Interested in internships in **offensive security, application security and security tooling**.
-
-## Web projects
+### Also building for the web
 
 I also build websites with Next.js: [AskMe Creative ↗](https://askmecreative.com) · [CRK Tourism ↗](https://crktourism.com)
 
-## Contributions in motion
+### Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mstfemre/mstfemre/main/assets/contributions/snake-dark.svg" />
@@ -54,4 +44,4 @@ I also build websites with Next.js: [AskMe Creative ↗](https://askmecreative.c
   <img src="https://raw.githubusercontent.com/mstfemre/mstfemre/main/assets/contributions/snake-dark.svg" width="100%" alt="Animated contribution calendar with a crimson snake" />
 </picture>
 
-<p align="center"><sub>My contribution history, animated. Updated daily.</sub></p>
+<p align="center"><sub>Open to internships in offensive security, application security and security tooling.</sub></p>

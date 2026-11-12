@@ -1,9 +1,11 @@
 # CrimsonWeb local demo
 
-The profile animation is an edited replay of a successful local run of
+The animation below is an edited replay of a successful local run of
 [CrimsonWeb](https://github.com/mstfemre/CrimsonWeb/tree/429af3a).
 It is not a live terminal or a performance benchmark. Command flags are abbreviated
 on the animation; the full command is below. Report excerpts are reformatted for readability.
+
+![CrimsonWeb local lab recording](../assets/crimsonweb-demo.gif)
 
 The disposable HTTP fixture listened only on `127.0.0.1:49899`. It served
 `/`, `/robots.txt`, `/api` and `/health`, with 404 responses elsewhere. It deliberately
